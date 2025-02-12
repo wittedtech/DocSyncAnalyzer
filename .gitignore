@@ -75,3 +75,4 @@ application.yml
 logs/
 *.log
 hs_err_pid*.log
+uploads/Velocis_CONCOR-Arbitration-Claim.pdf
