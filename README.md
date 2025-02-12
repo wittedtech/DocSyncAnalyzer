@@ -130,8 +130,8 @@ We welcome contributions! Follow these steps:
 
 ---
 
-**📞 Contact & Support** 📧 **Email:**  [support@wittedtech.com]() 
-🌐 **Website:**  [wittedtech.com](https://wittedtech.com/) 
+**📞 Contact & Support**  
+📧 **Email:**  [wittedtech.ai@gmail.com](wittedtech.ai@gmail.com)  
 💬 **GitHub Issues:**  [Create an Issue](https://github.com/wittedtech/DocSyncAnalyzer/issues) 
 
 ---
