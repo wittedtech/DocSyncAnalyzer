@@ -2,7 +2,6 @@
 ---
 
 **📄 DocSyncAnalyzer - Automated Document Parsing & OCR** 🚀 **DocSyncAnalyzer**  is a powerful document processing and OCR-based text extraction tool built using **Spring Boot, PDFBox, and Tesseract** . It efficiently scans PDFs, extracts relevant content, and processes large-scale documents for analysis.
- *(Optional: Add an image link if available)*
 
 ---
 
