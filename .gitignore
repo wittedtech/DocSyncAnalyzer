@@ -1,0 +1,77 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Ignore build and dependency directories
+/target/
+/out/
+/bin/
+/build/
+/.idea/
+/.vscode/
+/.gradle/
+/mvnw/
+/node_modules/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore Tesseract binaries (optional)
+tesseract-bin/
+tesseract-bin/windows/
+tesseract-bin/macos/
+tesseract-bin/linux/
+
+# Ignore Java, Maven, and IDE files
+*.iml
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Ignore config and environment files
+.env
+application.properties
+application.yml
+
+# Ignore logs and temp files
+logs/
+*.log
+hs_err_pid*.log

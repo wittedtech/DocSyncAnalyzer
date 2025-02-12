@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>DocSync Analyzer - Upload Files</title>
+</head>
+<body>
+    <h2>Upload PDF and Excel File</h2>
+
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+        <label>PDF File:</label>
+        <input type="file" name="pdfFile" required>
+        <br><br>
+        <label>Excel File:</label>
+        <input type="file" name="excelFile" required>
+        <br><br>
+        <button type="submit">Upload & Process</button>
+    </form>
+
+    <p th:if="${message}" th:text="${message}"></p>
+
+    <a th:if="${downloadLink}" th:href="${downloadLink}" download>Download Updated Excel</a>
+</body>
+</html>
